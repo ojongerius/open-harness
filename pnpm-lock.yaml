@@ -40,6 +40,34 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
+  examples/cli-with-receipts:
+    dependencies:
+      '@ai-sdk/openai':
+        specifier: ^3.0.30
+        version: 3.0.41(zod@4.3.6)
+      '@attest-protocol/attest-ts':
+        specifier: ^0.1.0
+        version: 0.1.0
+      '@openharness/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+    devDependencies:
+      '@types/node':
+        specifier: ^25.3.0
+        version: 25.3.5
+      chalk:
+        specifier: ^5.6.2
+        version: 5.6.2
+      ora:
+        specifier: ^9.3.0
+        version: 9.3.0
+      tsx:
+        specifier: ^4.21.0
+        version: 4.21.0
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
   examples/nextjs-demo:
     dependencies:
       '@ai-sdk/openai':
